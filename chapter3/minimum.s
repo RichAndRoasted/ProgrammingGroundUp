@@ -1,4 +1,4 @@
-#PURPOSE:	This program finds the maximum number
+#PURPOSE:	This program finds the minimum number
 #		of a set of data items.
 #
 
