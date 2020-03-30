@@ -22,7 +22,7 @@ data_items:
 
 .globl _start
 _start:
-movl $0, %edi		# move 0 into the index register
+movl $255, %edi		# move 0 into the index register
 movl data_items(,%edi,4), %eax #load the first byte of data
 movl %eax, %ebx		# since this is the first item, %eax is 
 			# the biggest
